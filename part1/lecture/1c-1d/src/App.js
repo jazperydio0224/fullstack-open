@@ -10,7 +10,7 @@ const App = () => {
   const [value, setValue] = useState(0);
 
   const setToValue = (newValue) => {
-    console.log("value now", newValue);
+    console.log("value now updated project", newValue);
     setValue(newValue);
   };
 
